@@ -13,7 +13,6 @@ declare module 'vue' {
     AMenu: typeof import('ant-design-vue/es')['Menu']
     AMenuItem: typeof import('ant-design-vue/es')['MenuItem']
     ASubMenu: typeof import('ant-design-vue/es')['SubMenu']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     LaptopOutlined: typeof import('@ant-design/icons-vue')['LaptopOutlined']
     NotificationOutlined: typeof import('@ant-design/icons-vue')['NotificationOutlined']
     UserOutlined: typeof import('@ant-design/icons-vue')['UserOutlined']

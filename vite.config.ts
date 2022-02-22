@@ -32,6 +32,11 @@ export default defineConfig({
       },
     },
   },
+  server: {
+    open: true,
+    port: 3005,
+    host: '0.0.0.0' // 还要再package.json中也配置一下， 才能实现使用 ip 地址访问启动的服务
+  },
   plugins: [
     vue(),
     vueJsx(),
@@ -47,7 +52,7 @@ export default defineConfig({
 
     Components({
       resolvers: [
-        AntDesignVueResolver({ resolveIcons: true}),
+        AntDesignVueResolver({ resolveIcons: true }),
         // ElementPlusResolver(),
         // VantResolver(),
       ],

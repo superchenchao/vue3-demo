@@ -80,7 +80,7 @@ export default defineComponent({
   },
   setup() {
     return {
-      selectedKeys1: ref<string[]>(['2']),
+      selectedKeys1: ref<string[]>(['1']),
       selectedKeys2: ref<string[]>(['1']),
       collapsed: ref<boolean>(false),
       openKeys: ref<string[]>(['sub1'])
